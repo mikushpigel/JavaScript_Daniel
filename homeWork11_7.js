@@ -14,7 +14,7 @@ box1.style.border = '2px solid black';
 
 const box2 = document.getElementById('box2');
 box2.innerHTML = `<ul>
-                      <li> mikush 🙋‍♀️</li>
+                      <li> Rotem 🙋‍♀️</li>
                       <li> web developer 💻 </li>
                       <li> Html, Css, Java script 😎</li>
                       <li> personal trainer 😄</li>
