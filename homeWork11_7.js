@@ -60,7 +60,7 @@ box4.style.borderRadius = '8px';
 box4.style.background = 'bg-danger';
 console.log(box4);
 
-//const body = document.querySelector('body');
+
 document.body.style.fontFamily = 'Comic Sans Ms';
 document.body.style.fontSize = '21px';
 document.body.style.background = 'linear-gradient(to right, #283c86, #45a247)';
