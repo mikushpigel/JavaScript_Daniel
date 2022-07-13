@@ -34,19 +34,20 @@ const forSale = {
             price: 200_000,
             hand: 2,
             km: 100_403,
-            year: 2014
+            year: 2014,
+            img: 'https://cdn.pixabay.com/photo/2013/07/12/13/21/sports-car-146873_960_720.png'
         
 };                  
 
 const box3 = document.getElementById('box3');
 box3.innerHTML = `<div class="card" style="width: 20rem; border: 5px solid black;">
-  <img src="./img/car-63930_1920.jpg" class="card-img-top" alt="race car">
+  <img src= ${forSale.img} class="card-img-top" alt="race car">
   <div class="card-body" style="background-color: rgb(80, 80, 235, 0.85);">
     <h3 class="card-title">${forSale.title}🚩</h3>
     <li class="card-text">price: ${forSale.price}₪</li>
     <li class="card-text">hand: ${forSale.hand}</li>
     <li class="card-text">km: ${forSale.km}</li>
-    <li class="card-text">year: ${forSale.year}</li>
+    <li class="card-text">year: ` + forSale.year + `</li>
   </div>
 </div>`
 
