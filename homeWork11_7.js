@@ -57,7 +57,6 @@ box4.className = 'bg-danger';
 box4.style.height = '200px';
 box4.style.width = '200px';
 box4.style.borderRadius = '8px';
-box4.style.background = 'bg-danger';
 console.log(box4);
 
 

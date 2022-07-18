@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=NTR&display=swap" rel="stylesheet">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* background: linear-gradient(to right, #8a2387, #e94057, #f27121); */
+
+            background-image: url(./img/bg.png);
+            background-repeat: no-repeat;
+            background-position: top left;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            /* background: url(./img/ROTEM.jpg);
+            background-size: 50%;
+            background-repeat: no-repeat;
+            background-position: top 0; */
+        }
+
+        .box {
+            width: 50vw;
+            /* padding: 20px 0 30px 0; */
+            margin: 0 auto;
+            /* background-color: rgba(7, 4, 4, 0.863); */
+            text-align: center;
+            /* box-shadow: 0 0 15px rgba(240, 211, 211, 0.89); */
+        }
+
+        @keyframes floral {
+            from {
+                background-position: center 0%;
+            }
+
+            to {
+                background-position: center 300%;
+            }
+        }
+
+        .box {
+            font-family: 'Rammetto One', cursive;
+            display: flex;
+            flex-direction: column;
+            color: rgba(190, 194, 197, 0.781);
+
+
+        }
+
+        .box h1 {
+            margin: 0;
+            font-size: 100px;
+
+            color: antiquewhite;
+            background: url(./img/bg2.png);
+            background-size: auto 180%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: floral 15s linear infinite;
+        }
+
+        .box h2 {
+            font-size: 100px;
+            letter-spacing: 1vw;
+
+        }
+
+        .box h3 {
+            font-size: 60px;
+
+            color: rgba(238, 228, 228, 0.925);
+            font-family: 'NTR', sans-serif;
+        }
+
+        .wrapper {
+            padding: 30px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+            gap: 15px;
+        }
+
+        .wrapper img {
+            width: 100%;
+            border-radius: 8px;
+
+        }
+
+        /* .item1 {
+            background-image: url(./img/ROTEM.jpg);
+            /* background-repeat: no-repeat;
+            background-position: top right;
+            background-size: contain;
+            background-attachment: fixed; */
+
+        /* } */
+
+        img.pic {
+            width: 50px;
+            height: 50px;
+        }
+
+        .about p {
+            font-family: 'Pattaya';
+            padding: 30px;
+            font-size: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>CREATIVE</h1>
+        <h2>DEVELOPER </h2>
+        <h3>SENSIBLE TO FRONTEND</h3>
+    </div>
+    <div class="wrapper">
+        <img src="./img/pic-removebg.png" alt="" class="pic">
+        <div class="about">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio deserunt ullam nobis consequatur quam,
+                repudiandae voluptas maiores itaque in debitis cum ut facilis repellat reprehenderit amet dolorem maxime
+                dolor sed blanditiis, culpa deleniti! Saepe exercitationem odit accusamus enim dicta totam ipsa ex
+                voluptatum excepturi, tempora rerum molestias at necessitatibus velit sunt iste voluptates possimus?
+                Iure commodi distinctio corporis dolorem, sequi eos explicabo cupiditate sapiente, deserunt consequuntur
+                possimus. Exercitationem ea veritatis nulla ut ipsam sed officiis minima suscipit consequuntur magni
+                laborum cumque iure recusandae rem asperiores, et molestiae aliquam voluptas error. Consequuntur
+                repudiandae, quod praesentium ad fugiat nemo deserunt vel porro ut, iure necessitatibus facilis iste.
+                Harum dolorem officia nihil sit vero qui provident! Suscipit tenetur vero architecto quaerat excepturi
+                ipsam explicabo veniam adipisci ipsum aspernatur dolorem blanditiis quas minima aliquam placeat, at
+                commodi corrupti sint tempora, facere temporibus magnam, sed alias cumque? Quae rerum molestiae fuga
+                error eaque fugit? Quas fuga incidunt molestias maiores facilis, nisi asperiores est amet vel eaque
+                consectetur laborum, illo a porro itaque, accusantium ratione? Ex, nisi neque. Expedita ex modi harum
+                asperiores repellendus, placeat error eum voluptas ad neque rem voluptatibus. Placeat, sit molestias
+                perferendis quibusdam modi neque, non iste est laboriosam labore culpa eos.</p>
+        </div><img src="./img/pic-removebg.png" alt="" class="pic">
+
+    </div>
+</body>
+
+</html>
