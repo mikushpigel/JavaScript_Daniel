@@ -112,6 +112,6 @@ function resultOfTypeGender () {
     return valueGenderInput;
 
      
-} console.log('25');
+} 
 
 
