@@ -114,4 +114,19 @@ function resultOfTypeGender () {
      
 } 
 
+function checkInputText(){
+    userName.value.length < 2 ? errorName.innerHTML = `please insert logical name 😡` :  errorName.innerHTML = " ";
+}
+
+function checkInputAge(){
+    userAge.value <= 0 ? errorAge.innerHTML = `This is not an acceptable age 😱` : errorAge.innerHTML = " ";
+}
+
+console.log(Boolean(0));
+console.log(Boolean(null));
+
+console.log(Boolean(undefined));
+console.log(Boolean('Jonas'));
+console.log(Boolean({}));
+console.log(Boolean(''));
 
